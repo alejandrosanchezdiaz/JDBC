@@ -15,7 +15,7 @@ public class TestManejoPersonas {
 //        Persona personaModificar = new Persona(5, "Juan Carlos", "Esparza", "jshjbdhawd@gmail.com.", "817532656174");
 //        personaDao.actualizar(personaModificar);
         
-        Persona personaEliminar = new Persona(6);
+        Persona personaEliminar = new Persona(5);
         personaDao.eliminar(personaEliminar);
 
         List<Persona> personas = personaDao.seleccionar();
